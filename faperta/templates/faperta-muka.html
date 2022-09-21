@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <center>
+    <h1>Fakultas Pertanian</h1>
+    </center>
+    <hr>
+    <hr>
+    <h2>{{ tentang }}</h2>
+    <ol style="text-align: justify;">
+        <b><li>{{ jurusan1 | upper }}</li></b>
+        <p>{{ penjelasan1 }}</p>
+        <b><li>{{ jurusan2 | upper }}</li></b>
+        <p>{{ penjelasan2 }}</p>
+        <b><li>{{ jurusan3 | upper }}</li></b>
+        <p>{{ penjelasan3 }}</p>
+        <b><li>{{ jurusan4 | upper }}</li></b>
+        <p>{{ penjelasan4 }}</p>
+    </ol> 
+
+{% endblock %}

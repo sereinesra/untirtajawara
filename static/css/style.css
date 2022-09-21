@@ -1,0 +1,66 @@
+body{
+    background-color: #d9d9d9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.menu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight:bold;
+    height:70px;
+    width:100%;
+    background-color:#31444e;
+    border-radius:5px;
+    font-size:13px;
+}
+label{
+    font-family: 'Lucida Sans';
+    font-size:20pt;
+    color:#bababe;
+    margin:10px;
+    padding:5px;
+    float: left;
+
+}
+.menu ul{
+    margin:0px;
+    padding: 5px;
+    background:none;
+    display: block;
+    float:right;
+}
+.menu ul li {
+    list-style:none;
+    display:inline-block;
+}
+.menu ul li a {
+    display:block;
+    text-decoration: none;
+    padding:20px;
+    color:#bababe;
+}
+.menu ul li a:hover {
+    display:block;
+    color:rgb(111, 124, 95);
+    background-color:azure;
+    box-shadow:inset 0px 0px 5px #00c2cb;
+}
+.menu ul li .dropdown {
+    display:none;
+}
+.menu ul li:hover .dropdown {
+    display:block;
+    background-color:#5f6888;
+    position:absolute;
+    padding:10px;
+}
+.menu ul li:hover .dropdown li{
+    display:block;
+}
+.menu ul li:hover .dropdown li a {
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.menu ul li:hover .dropdown li a:hover {
+    background-color:rgb(204, 235, 235);
+    box-shadow: inset 0px 0px 5px rgb(159, 180, 193);
+}
